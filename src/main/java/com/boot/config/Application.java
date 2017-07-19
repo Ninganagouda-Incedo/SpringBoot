@@ -6,6 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.SpringServletContainerInitializer;
 
+// Boot application starts from here.
 @SpringBootApplication
 @ComponentScan( basePackages = {"com.boot"})
 public class Application extends SpringServletContainerInitializer {
