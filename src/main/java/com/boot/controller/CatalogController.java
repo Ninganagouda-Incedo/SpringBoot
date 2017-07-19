@@ -305,4 +305,9 @@ public class CatalogController {
 			throw new NFVException(messageSource.getMessage("not.found", new String[]{CATALOG}, utility.getLocale()), HttpStatus.BAD_REQUEST);
 	}*/
 	
+	public void display()
+	{
+		//Added by tejesh
+	}
+	
 }
